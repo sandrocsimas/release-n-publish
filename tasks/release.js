@@ -14,5 +14,5 @@ async function lintProject() {
 if (require.main === module) {
   release.setWorkingDir(WORKING_DIR);
   release.setLintTask(lintProject);
-  release.run(process.argv[2], process.argv[3]);
+  release.run(process.argv[2]);
 }
