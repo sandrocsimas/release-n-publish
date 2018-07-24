@@ -1,7 +1,7 @@
 'use strict';
 
-const {commands, release} = require('../lib');
 const path = require('path');
+const {commands, release} = require('../lib');
 
 const WORKING_DIR = path.resolve();
 

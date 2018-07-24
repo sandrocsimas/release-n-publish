@@ -1,7 +1,7 @@
 'use strict';
 
-const {commands, publish} = require('../lib');
 const path = require('path');
+const {commands, publish} = require('../lib');
 
 const WORKING_DIR = path.resolve();
 
