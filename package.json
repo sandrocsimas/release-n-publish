@@ -1,7 +1,7 @@
 {
   "name": "release-n-publish",
   "description": "Release and publish libraries",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": {
     "name": "Sandro Simas",
     "email": "sandro.csimas@gmail.com"
