@@ -1,12 +1,12 @@
 {
   "rules": {
     "arrow-body-style": ["off"],
-    "object-curly-newline": ["off"],
-    "object-curly-spacing": ["error", "never"],
     "max-len": ["error", {"code": 999, "tabWidth": 2}],
     "no-lonely-if": ["off"],
     "no-param-reassign": ["error", {"props": false}],
     "no-underscore-dangle": ["off"],
+    "object-curly-newline": ["off"],
+    "object-curly-spacing": ["error", "never"]
   },
   "parserOptions": {
     "sourceType": "script"
