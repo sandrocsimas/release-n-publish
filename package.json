@@ -10,6 +10,12 @@
     "index.js",
     "lib"
   ],
+  "keywords": [
+    "semver",
+    "release",
+    "publish",
+    "distribution"
+  ],
   "scripts": {
     "lint": "eslint '**/*.js'",
     "release-lib": "node tasks/release.js",
