@@ -1,1 +1,27 @@
-"{\n  \"name\": \"release-n-publish\",\n  \"description\": \"Release and publish libraries\",\n  \"version\": \"0.0.2\",\n  \"author\": {\n    \"name\": \"Sandro Simas\",\n    \"email\": \"sandro.csimas@gmail.com\"\n  },\n  \"files\": [\n    \"index.js\",\n    \"lib\"\n  ],\n  \"scripts\": {\n    \"lint\": \"eslint '**/*.js'\",\n    \"release-lib\": \"node tasks/release.js\",\n    \"publish-lib\": \"node tasks/publish.js\"\n  },\n  \"devDependencies\": {\n    \"eslint\": \"^5.2.0\",\n    \"eslint-config-airbnb-base\": \"^13.0.0\",\n    \"eslint-plugin-import\": \"^2.13.0\"\n  },\n  \"dependencies\": {\n    \"chalk\": \"^2.4.1\",\n    \"semver\": \"^5.5.0\"\n  }\n}"
+{
+  "name": "release-n-publish",
+  "description": "Release and publish libraries",
+  "version": "0.0.3",
+  "author": {
+    "name": "Sandro Simas",
+    "email": "sandro.csimas@gmail.com"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "release-lib": "node tasks/release.js",
+    "publish-lib": "node tasks/publish.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "semver": "^5.5.0"
+  }
+}
