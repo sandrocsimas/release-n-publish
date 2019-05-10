@@ -1,7 +1,7 @@
 {
   "name": "release-n-publish",
   "description": "Release and publish libraries",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": {
     "name": "Sandro Simas",
     "email": "sandro.csimas@gmail.com"
@@ -22,12 +22,12 @@
     "publish-lib": "node tasks/publish.js"
   },
   "devDependencies": {
-    "eslint": "^5.2.0",
-    "eslint-config-airbnb-base": "^13.0.0",
-    "eslint-plugin-import": "^2.13.0"
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
   },
   "dependencies": {
-    "chalk": "^2.4.1",
-    "semver": "^5.5.0"
+    "chalk": "^2.4.2",
+    "semver": "^6.0.0"
   }
 }
