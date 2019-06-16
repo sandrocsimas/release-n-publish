@@ -1,1 +1,1 @@
-# Release and publish your libraries faster
+# Release and publish your libraries
