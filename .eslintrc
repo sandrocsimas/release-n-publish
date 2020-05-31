@@ -1,12 +1,12 @@
 {
   "rules": {
-    "arrow-body-style": ["off"],
+    "arrow-body-style": ["error", "as-needed", {"requireReturnForObjectLiteral": true}],
+    "arrow-parens": ["error", "always"],
     "max-len": ["error", {"code": 999, "tabWidth": 2}],
-    "no-lonely-if": ["off"],
     "no-param-reassign": ["error", {"props": false}],
-    "no-underscore-dangle": ["off"],
-    "object-curly-newline": ["off"],
-    "object-curly-spacing": ["error", "never"]
+    "object-curly-newline": ["error", {"consistent": true}],
+    "object-curly-spacing": ["error", "never"],
+    "strict": ["error", "safe"]
   },
   "parserOptions": {
     "sourceType": "script"
