@@ -1,7 +1,7 @@
 {
   "name": "release-n-publish",
   "description": "Release and publish your libraries faster",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "author": {
     "name": "Sandro Simas",
     "email": "sandro.csimas@gmail.com"
